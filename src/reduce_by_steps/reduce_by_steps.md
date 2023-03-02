@@ -13,7 +13,7 @@ def multiply(num1,num2):
   return num1 * num2
 
 numbers = [5, 5]
-initial_value = 0
+initial_value = 1
 
 
 reduce_by_steps(multiply, numbers, initial_value) # 25
