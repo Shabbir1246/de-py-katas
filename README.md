@@ -93,6 +93,7 @@ This repo is a series of katas to practice your problem solving skills, there is
 31. validate_suduko
 32. strange_sort
 33. gdpr_mask
+34. sudoku_solver
 
 ---
 
