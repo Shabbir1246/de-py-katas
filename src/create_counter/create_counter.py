@@ -1,15 +1,17 @@
 def create_counter(num):
 
+	# global counter
+	counter = num
+	def up():
+		nonlocal counter
+		counter += 1
+		return counter
 
-	def up(local_num = num):
-		# print(local_num)
-		local_num += 1
-		return local_num
 
-
-	def down(local_num = num):
-		local_num -= 1
-		return local_num
+	def down():
+		nonlocal counter
+		counter -= 1
+		return counter
 	
 
 	counter_dic = {
@@ -17,10 +19,3 @@ def create_counter(num):
 		'down': down
 	}
 	return counter_dic
-
-counter = create_counter(10)
-up = counter['up']
-down = counter['down']
-print(up())
-print(down())
-print(down())

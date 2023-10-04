@@ -9,4 +9,19 @@ def test_should_accept_a_number_as_its_only_argument_and_returns_dic_with_2_func
     expected = 11
     result = up()
     print(f'Result is: {result}')
-    assert result == expected_num
+    assert result == expected
+
+    expected = 12
+    result = up()
+    print(f'Result is: {result}')
+    assert result == expected
+
+    expected = 11
+    result = down()
+    print(f'Result is: {result}')
+    assert result == expected
+
+    expected = 10
+    result = down()
+    print(f'Result is: {result}')
+    assert result == expected
