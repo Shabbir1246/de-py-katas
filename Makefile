@@ -49,7 +49,7 @@ run-flake:
 	$(call execute_in_env, flake8 \
 	./src/multiplication_table/*.py \
 	./src/reduce_by_steps/*.py \
-	./src/find_partner/*.py \
+	./src/traverse_students/*.py \
 	./src/find_most_repeated/*.py \
 	./src/vowel_shift/*.py \
 	./src/alternating_split/*.py \
